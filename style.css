@@ -178,7 +178,6 @@ nav a:hover {
         flex-flow: column nowrap
     }
     .about_me_info_left {
-        margin-left: 10%;
         width: 100%;
     }
     .about_me_info_left img {
@@ -212,18 +211,6 @@ nav a:hover {
         height: 300px;
     }
 }
-
-@media screen and (max-width: 360px) {
-    .about_me_info_left img {
-        width: 55%;
-        height: 250px;
-    }
-    .img_border {
-        width: 55%;
-        height: 250px;
-    }
-}
-
 
 .personal_info {
     display: grid;
@@ -284,7 +271,7 @@ nav a:hover {
 
 @media screen and (max-width: 575px) {
     .intro_message h1 {
-        font-size: 11vh;
+        font-size: 4em;
     }
     .about_me h1 {
         font-size: 9.5vh;
@@ -293,40 +280,35 @@ nav a:hover {
 
 @media screen and (max-width:460px) {
     .intro_message h1 {
-        font-size: 9vh;
+        font-size: 3.5em;
     }
     .about_me h1 {
         font-size: 7.5vh;
     }
 }
 
-@media screen and (max-width:340px) {
+@media screen and (max-width: 390px) {
+    .about_me_info_left img {
+        width: 55%;
+        height: 250px;
+    }
+    .img_border {
+        width: 55%;
+        height: 250px;
+    }
     .intro_message h1 {
-        font-size: 8vh;
+        font-size: 3em;
     }
     .about_me h1 {
         font-size: 6.5vh;
     }
 }
 
-@media screen and (max-width:294px){
+@media screen and (max-width: 390px) {
     .intro_message h1 {
-        font-size: 7vh;
-    }
-    .about_me h1 {
-        font-size: 5.5vh;
+        font-size: 2em;
     }
 }
-
-@media screen and (max-width:294px){
-    .intro_message h1 {
-        font-size: 6vh;
-    }
-    .about_me h1 {
-        font-size: 4.5vh;
-    }
-}
-
 #skills {
     margin: 0 14%;
 }
